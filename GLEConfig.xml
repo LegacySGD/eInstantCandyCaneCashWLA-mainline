@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2218" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Candy Cane Cash WLA" version="1.0.15" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="10,20,50,100,200,300,500,1000,2000,3000,5000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,en_NZ,pl_PL,lt_LT"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">   
+
+            <!-- ZER 10c, 50c, $1, $2, $3, $5, $10 & $20 -->
+            <!-- <paymodel modelid="300-2218-099"  revealId="2218" revealVersionId="2218"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Candy Cane Cash WLA : 300-2218-099"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2218-099" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2218-099" clienttype="HTML" configcode="PHLP"/> -->
+
+            <!-- KY -->
+            <paymodel modelid="300-2218-001"  revealId="4590" revealVersionId="4584"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Candy Cane Cash WLA : 300-2218-001"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2218-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2218-001" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- GA -->
+            <paymodel modelid="300-2218-002"  revealId="4590" revealVersionId="4584"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Candy Cane Cash WLA : 300-2218-002"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2218-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2218-002" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- RI -->
+            <paymodel modelid="300-2218-003"  revealId="4590" revealVersionId="4584"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Candy Cane Cash WLA : 300-2218-003"
+                      hibethold="30.00" lobethold="27.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2218-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2218-003" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- LNZ -->
+            <paymodel modelid="300-2218-004"  revealId="4590" revealVersionId="4584"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Candy Cane Cash WLA : 300-2218-004"
+                      hibethold="38.00" lobethold="38.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2218-004" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2218-004" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- PLT 1zl, 2zl, 5zl, 10zl, 20zl, 30zl, 50zl -->
+            <paymodel modelid="300-2218-005"  revealId="4590" revealVersionId="4584"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Candy Cane Cash WLA : 300-2218-005"
+                      hibethold="22.00" lobethold="22.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2218-005" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2218-005" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- LTR €0.50, €1, €2 & €5 -->
+            <paymodel modelid="300-2218-006"  revealId="4590" revealVersionId="4584"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Candy Cane Cash WLA : 300-2218-006"
+                      hibethold="37.00" lobethold="37.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2218-006" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2218-006" clienttype="HTML" configcode="PHLP"/>
+
+            <denom currencycode="EUR" amount="0.01"/>
+            <denom currencycode="NZD" amount="0.01,0.02"/>
+            <denom currencycode="PLN" amount="0.01,0.05"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
